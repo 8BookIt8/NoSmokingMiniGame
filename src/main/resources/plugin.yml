@@ -1,0 +1,16 @@
+name: NoSmokingMiniGame
+version: 1.0.0
+api-version: 1.18
+author: 8bookit8
+description: NoSmokingMiniGame for Spigot Server.
+main: com.bookit.nosmokingminigame.NoSmokingMiniGame
+
+commands:
+  nsmg:
+    permission: bookit.nosmokingminigame.command
+    permission-message: You don't have enough permission to use this command.
+
+permissions:
+  bookit.nosmokingminigame.command:
+    description: Permission to use nsmg commands.
+    default: op
