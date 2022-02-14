@@ -5,10 +5,10 @@
 ### MiniGame plugin to prevent smoking.
 
 ## Usages
-* /nsmg \<start> \<playerName>
+* /nsmg start \<playerName>
   * 게임을 시작합니다
   * Start the game.
 ####
-* /nsmg \<stop>
+* /nsmg stop
     * 게임을 중지합니다
     * Stop the game.
