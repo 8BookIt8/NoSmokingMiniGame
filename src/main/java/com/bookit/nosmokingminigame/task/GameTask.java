@@ -1,11 +1,9 @@
 package com.bookit.nosmokingminigame.task;
 
-import com.bookit.nosmokingminigame.Ball;
 import com.bookit.nosmokingminigame.Game;
 import net.md_5.bungee.api.ChatMessageType;
 import net.md_5.bungee.api.chat.TextComponent;
 import org.bukkit.ChatColor;
-import org.bukkit.Particle;
 import org.bukkit.block.Block;
 import org.bukkit.entity.FallingBlock;
 import org.bukkit.entity.Player;
@@ -60,7 +58,7 @@ public class GameTask extends BukkitRunnable {
      */
     private static void moveTo(FallingBlock block, Vector vec) {
         Vector blockVec = block.getLocation().toVector();
-        Vector velocity = vec.subtract(blockVec).setX(0).setY(0).multiply(0.5);
+        Vector velocity = vec.subtract(blockVec).setX(0).setY(0).multiply(0.7);
         block.setVelocity(velocity);
     }
 }

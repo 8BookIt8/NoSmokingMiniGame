@@ -197,7 +197,7 @@ class BallMoveTask extends BukkitRunnable {
                     Ball.collisionWithWall(Ball.Axis.Y);
                 }
                 this.lastHitObject = Game.GAME_OBJECT.ITEM;
-                Ball.setSpeed(Ball.getSpeed() + 0.08);
+                Ball.setSpeed(Ball.getSpeed() + 0.05);
                 Ball.destroyItem(((ArmorStand) item).getHelmet().getType());
                 item.remove();
             }

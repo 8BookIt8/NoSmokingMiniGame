@@ -2,7 +2,6 @@ package com.bookit.nosmokingminigame.task;
 
 import com.bookit.nosmokingminigame.Ball;
 import com.bookit.nosmokingminigame.Game;
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Sound;
 import org.bukkit.entity.Player;
